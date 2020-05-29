@@ -1,0 +1,6 @@
+.popup-image.popup_is-opened {
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}

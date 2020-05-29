@@ -1,0 +1,12 @@
+.card__button {
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .card__button {
+    position: static;
+    margin-bottom: 40px;
+  }
+}
