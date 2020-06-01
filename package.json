@@ -19,6 +19,12 @@
     "url": "https://github.com/DmitriiK1/praktikum/issues"
   },
   "homepage": "https://github.com/DmitriiK1/praktikum#readme",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",

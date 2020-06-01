@@ -29,3 +29,6 @@ body {
   color: #ff0000;
   background: none;
 }
+.place-card__like-icon:active, .place-card__like-icon:focus {
+  outline: none;
+}
