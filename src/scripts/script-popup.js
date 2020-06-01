@@ -1,4 +1,4 @@
-class Popup {
+export default class Popup {
     constructor(popupEl, formValidator) {
         this.popupEl = popupEl;
         this.popupForm = this.popupEl.querySelector('.popup__form');

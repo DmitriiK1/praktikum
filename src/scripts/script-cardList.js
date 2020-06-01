@@ -1,4 +1,4 @@
-class CardList {
+export default class CardList {
     constructor(placeCardsEl, cardsArr) {
         this.placeCardsEl = placeCardsEl;
         this.cardsArr = cardsArr;

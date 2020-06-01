@@ -1,21 +1,13 @@
-/**
- * Работа принята.
- *
- * Удалил исправленные замечания, необходима небольшая доработка:
- * В классе Api необходимо создать методы, которые будут вызывать request с соответствующими url.
- * Таким образом мы инкапсулируем URL внутрь класса.
- * Пример:
- * api.get('/cohort10/cards')
- *   .then((result) => ...
- * Следует переделать в
- * api.getCards()
- *   .then...
- *
- * Отлично, теперь вы знаете, как делать запросы к серверу.
- * Реализованный функционал работает без ошибок.
- */
 // Переменные
-(function () {
+import Popup from './script-popup';
+import Api from './script-api';
+import Card from './script-card';
+import CardList from './script-cardList';
+import FormValidator from './script-formValidator';
+import UserInfo from './script-userInfo';
+
+import "../pages/index.css";
+
   const placesList = document.querySelector('.places-list');
   const userPopupOpen = document.querySelector('.user-info__button_edit');
   const cardPopupOpen = document.querySelector('.card__button');
@@ -90,5 +82,3 @@
   // Вызов функций
 
   cardPopupOpen.addEventListener('click', cardPopup.openPopup);
-
-})();
