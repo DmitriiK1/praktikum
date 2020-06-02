@@ -32,10 +32,6 @@ module.exports = {
         },
         // пример настройки плагина image-webpack-loader
         {
-            test: /\.html$/,
-            loader: 'html-loader'
-        },
-        {
             test: /\.(png|jpg|gif|ico|svg)$/,
             use: [
                 'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
