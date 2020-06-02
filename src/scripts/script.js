@@ -13,7 +13,7 @@ import "../pages/index.css";
   const cardPopupOpen = document.querySelector('.card__button');
   const imagePopup = new Popup(document.querySelector('.popup-image'));
 
-  const api = new Api('https://praktikum.tk', '18a021a8-48cf-47e9-a7a9-96c77236072e');
+  const api = new Api(process.env.NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk', '18a021a8-48cf-47e9-a7a9-96c77236072e');
 
   //Загрузка первоначальных карточек с сервера
 
